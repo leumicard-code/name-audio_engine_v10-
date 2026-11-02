@@ -1,3 +1,29 @@
+
+
+
+<img width="626" height="987" alt="image" src="https://github.com/user-attachments/assets/035c82b9-ed2f-41f6-b1c9-ab9510b6a4fe" />
+
+
+<img width="626" height="987" alt="image" src="https://github.com/user-attachments/assets/14685b65-71ac-4ab5-9f1a-f5797d13e233" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 🎧 Audio Engine V10 — Audiophile Studio
 
     10 MiB • WX Native • 64-Band RTA • Rust • No Tank
