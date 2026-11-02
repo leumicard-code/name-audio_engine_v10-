@@ -1,0 +1,27 @@
+[package]
+name = "audio_engine_v10"
+version = "10.0.0"
+edition = "2021"
+authors = ["Shay Kadosh"]
+description = "Audiophile DSP Music Player and 10-Band Equalizer Studio for Linux (wxWidgets/GTK3 Edition)"
+license = "MIT"
+repository = "https://github.com/leumicard-code/audio_engine_v10"
+keywords = ["audio", "music-player", "equalizer", "gstreamer", "wxwidgets"]
+categories = ["multimedia::audio", "gui"]
+
+[dependencies]
+wxdragon = "0.9"
+gstreamer = "0.22"
+anyhow = "1.0"
+rfd = "0.14"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dirs = "5"
+walkdir = "2"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
